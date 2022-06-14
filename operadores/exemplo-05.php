@@ -1,0 +1,11 @@
+<?php 
+
+$a = 35;
+
+$b = 35;
+
+var_dump($a <=> $b);
+
+/// em caso de a > b = 1, a < b = -1, a = b = 0 
+
+?>
