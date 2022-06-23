@@ -1,42 +1,31 @@
 <?php
 
-$seuSalario = 1212.00;
+$qualASuaIdade = 15;
 
-$salarioMinimo = 1212.00 ;
-$salario1 = 1500.00;
-$salario2 = 3500.00;
-$salario3 = 5000.00;
-$salario4 = 100000.00;
+$idadeCriança = 12;
+$idadeMaior = 18;
+$idadeMelhor = 65;
 
-echo "Seu salario é R$". $seuSalario . "!";
+if ($qualASuaIdade < $idadeCriança) {
 
-echo "<br>";
+    echo "Criança";
 
-if ($seuSalario < $salarioMinimo) {
+} else if ($qualASuaIdade < $idadeMaior) {
 
-	echo " Voce ganha menos que um salario minimo.";
+    echo "Adolescente";
 
+} else if ($qualASuaIdade < $idadeMelhor) {
 
-} else if ($seuSalario > $salarioMinimo) {
+    echo "Adulto";
 
-	echo " Voce ganha mais que um salario minimo.";
+} else {
 
-} else if ($seuSalario == $salarioMinimo) {
-
-	echo " Voce ganha um salario minimo.";
-
-
-}else {
+    echo "Idoso";
 
 }
+
 echo "<br>";
 
-echo ($seuSalario < $salarioMinimo)?"Voce esta abaixo da media salarial.":"Voce esta acima da media salarial.";
+echo ($qualASuaIdade < $idadeMaior)?"Menor de Idade":"Maior de Idade";
 
 ?>
-
-
-
-
-
-//O PHP suporta > (maior que), >= (maior ou igual a), == (igual), != (diferente), < (menor que) e <= (menor ou igual a). A linguagem também suporta um conjunto de operador de equivalencia estrita: === (igual a e do mesmo tipo) e !== (diferente de ou não do mesmo tipo).

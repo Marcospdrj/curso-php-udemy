@@ -1,12 +1,13 @@
-<?php 
+<?php
 
 function ola(){
 
-	return "Ola Mundo <br>";
+	return "Ola Mundo";
 }
 
-echo ola(); 
+echo ola();
 $frase = ola();
+echo "<br>";
 echo strlen($frase);
-
+/////strlen ultilizado para descobrir o tamanho de uma string no php
 ?>
