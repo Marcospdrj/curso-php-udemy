@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 $pessoas = array();
 
@@ -13,4 +13,5 @@ array_push($pessoas, array(
 ));
 
 print_r($pessoas);
+echo json_encode($pessoas);
 ?>

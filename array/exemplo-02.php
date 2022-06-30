@@ -11,10 +11,10 @@ $carros[1][2] = "Fusion";
 $carros[1][3] = "Eco Sport";
 
 echo $carros[0][3];
-
+echo "<br>";
 echo end($carros[1]);
-
+echo "<br>";
 echo end($carros[0]);
+echo "<br>";
 
 ?>
-

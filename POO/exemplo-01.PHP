@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 class Pessoa{
 
@@ -6,8 +6,11 @@ class Pessoa{
 
 	public function falar(){//Metodo
 
-		return "O meu nome é ".$this->nome; //atributo fora do metodo usa $, dentro do metodo usa $this->
-	}											//$this-> é ultilizado para referenciar atributos e metodos dentro de outros metodos
+		return "O meu nome é ".$this->nome;
+		//atributo fora do metodo usa $, dentro do metodo usa $this->
+  	//$this-> é ultilizado para referenciar atributos e metodos dentro de outros metodos
+
+	}
 
 }
 
